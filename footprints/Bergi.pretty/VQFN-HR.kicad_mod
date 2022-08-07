@@ -1,0 +1,71 @@
+(footprint "VQFN-HR" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (attr smd)
+  (fp_text reference "REF**" (at -0.025 -2.5 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 80db6362-ebb8-499c-91f5-c70d32b87bd7)
+  )
+  (fp_text value "VQFN-HR" (at -0.025 2.05 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 328cf897-e186-4660-ad4a-93a44d9969a8)
+  )
+  (fp_text user "${REFERENCE}" (at 0 3.45 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp b627296d-bfd4-457e-af53-ec81bcfe87cc)
+  )
+  (fp_line (start -1 -0.75) (end -0.4 -0.75) (layer "F.Paste") (width 0.1) (tstamp 2b78ec68-2e95-4b52-a9cc-340bcfb0c649))
+  (fp_line (start -0.4 -0.65) (end -1 -0.65) (layer "F.Paste") (width 0.1) (tstamp 7137b3af-21ce-430b-9857-fc2640ab43d9))
+  (fp_line (start 0.075 -0.525) (end 0.075 -0.825) (layer "F.Paste") (width 0.1) (tstamp 743a99aa-5df7-4800-b753-6b9e21634d8e))
+  (fp_line (start 0.175 -0.525) (end 0.075 -0.525) (layer "F.Paste") (width 0.1) (tstamp 812276c8-151b-4661-bfa1-10e9af7cf054))
+  (fp_line (start 0.975 -0.825) (end 0.975 -0.725) (layer "F.Paste") (width 0.1) (tstamp a39fc5b0-2916-4538-b898-eb4722e1c34a))
+  (fp_line (start 0.975 -0.725) (end 0.075 -0.725) (layer "F.Paste") (width 0.1) (tstamp b5041f53-56a8-4ddb-aab7-6ce5f73a497a))
+  (fp_line (start -0.4 -0.75) (end -0.4 -0.65) (layer "F.Paste") (width 0.1) (tstamp bc642376-048e-4fae-9087-64e3c586c428))
+  (fp_line (start 0.175 -0.825) (end 0.175 -0.525) (layer "F.Paste") (width 0.1) (tstamp c6076854-dd22-4e30-9959-fea9d7b13f17))
+  (fp_line (start -1 -0.65) (end -1 -0.75) (layer "F.Paste") (width 0.1) (tstamp c9831e7e-f79c-4eb0-8d4c-ccf9c235a1b7))
+  (fp_line (start 0.075 -0.825) (end 0.975 -0.825) (layer "F.Paste") (width 0.1) (tstamp f2aa3009-bd69-405f-b86c-b4c6d3ff3923))
+  (fp_line (start -0.75 0.475) (end -0.75 0.225) (layer "F.SilkS") (width 0.12) (tstamp 49ede303-4a08-40e2-971a-5f94e56c9b21))
+  (fp_line (start 0.75 0.475) (end 0.75 0) (layer "F.SilkS") (width 0.12) (tstamp 520eea00-ec04-40a7-9a27-f066f2c06fe1))
+  (fp_line (start -0.75 -1) (end 0.75 -1) (layer "F.SilkS") (width 0.12) (tstamp 6b599dec-8e65-4a4b-b4b9-b5c3d4c43010))
+  (fp_line (start -0.75 1) (end 0.75 1) (layer "F.SilkS") (width 0.12) (tstamp a1134dbc-2d24-4840-86c4-9d65c3fccfa0))
+  (fp_circle (center -0.5 -1.25) (end -0.45 -1.25) (layer "F.SilkS") (width 0.12) (fill none) (tstamp f0aaa05b-8748-4d98-9204-9129354f259d))
+  (pad "1" smd roundrect (at -0.6 -0.7) (size 0.7 0.2) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25)
+    (solder_mask_margin 0.05) (tstamp 830e7c43-253a-4006-bee0-4e348a7eb1c8))
+  (pad "2" smd roundrect (at -0.65 -0.05) (size 0.6 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (solder_mask_margin 0.05) (tstamp 2341d557-27c1-478b-aa4d-8b9899be49f5))
+  (pad "3" smd roundrect (at -0.6 0.75) (size 0.7 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (solder_mask_margin 0.05) (tstamp 87a6ed01-3812-4130-906b-e3cf59007f63))
+  (pad "4" smd roundrect (at 0.65 0.75) (size 0.6 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (solder_mask_margin 0.05) (tstamp aa57cdad-84ca-4ea4-b61d-23e2dc9320fb))
+  (pad "5" smd roundrect (at 0.65 -0.275) (size 0.6 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (solder_mask_margin 0.05) (tstamp 4ee1fc5d-2a56-4a31-9847-74d601e17464))
+  (pad "6" smd custom (at 0.45 -0.775) (size 0 0) (layers "F.Cu" "F.Mask")
+    (solder_mask_margin 0.05)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_line (start -0.45 0.05) (end 0.45 0.05) (width 0.1))
+      (gr_line (start -0.45 -0.05) (end -0.45 0.25) (width 0.1))
+      (gr_line (start -0.45 -0.05) (end 0.45 -0.05) (width 0.1))
+      (gr_line (start 0.45 0.05) (end 0.45 -0.05) (width 0.1))
+      (gr_line (start -0.35 -0.05) (end -0.35 0.25) (width 0.1))
+      (gr_line (start -0.45 0.25) (end -0.35 0.25) (width 0.1))
+    ) (tstamp 6cd3b3f6-68e9-4b95-b33a-5d10c5c7b9b2))
+  (group "" (id 4e898ab5-9a35-4c2f-930b-99df47353075)
+    (members
+      743a99aa-5df7-4800-b753-6b9e21634d8e
+      812276c8-151b-4661-bfa1-10e9af7cf054
+      a39fc5b0-2916-4538-b898-eb4722e1c34a
+      b5041f53-56a8-4ddb-aab7-6ce5f73a497a
+      c6076854-dd22-4e30-9959-fea9d7b13f17
+      f2aa3009-bd69-405f-b86c-b4c6d3ff3923
+    )
+  )
+  (group "" (id a9ed85ae-da7e-4714-a807-2623a98117cb)
+    (members
+      2b78ec68-2e95-4b52-a9cc-340bcfb0c649
+      7137b3af-21ce-430b-9857-fc2640ab43d9
+      bc642376-048e-4fae-9087-64e3c586c428
+      c9831e7e-f79c-4eb0-8d4c-ccf9c235a1b7
+    )
+  )
+)

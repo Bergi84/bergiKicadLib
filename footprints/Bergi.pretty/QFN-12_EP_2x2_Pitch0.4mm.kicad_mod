@@ -39,5 +39,5 @@
   (pad "11" smd oval (at 0 -1.075) (size 0.2 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3ee799b1-286d-42d2-b9f6-7e2aa462d539))
   (pad "12" smd oval (at -0.4 -1.075) (size 0.2 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3ee799b1-286d-42d2-b9f6-7e2aa462d539))
   (pad "13" smd rect (at 0 0) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask")
-    (solder_paste_margin -0.75) (tstamp 44dc5e9d-f361-425b-a6b8-aa4ea1fbe756))
+    (solder_paste_margin -0.1) (tstamp 44dc5e9d-f361-425b-a6b8-aa4ea1fbe756))
 )
